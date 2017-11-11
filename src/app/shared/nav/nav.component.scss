@@ -1,5 +1,12 @@
+@import '~variables.scss';
 
 .navbar{
+    padding: 20px;
+    
+    .nav-item .active{
+        border-bottom: 5px solid $primary-color;    
+    }
+
     .nav-link, .navbar-brand{
         font-weight: bold
     }
