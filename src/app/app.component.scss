@@ -1,0 +1,12 @@
+@import '~variables.scss';
+
+.app-style{
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    background-color: $primary-color;
+    font-size: 16px;
+}
+
+.app-main-content{
+    padding: 40px
+}

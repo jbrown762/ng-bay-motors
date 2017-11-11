@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+//scss variables
+@import '~variables.scss';
+
+
+html, body, app-root{
+    height: 100%;
+    color: $text-color
+}

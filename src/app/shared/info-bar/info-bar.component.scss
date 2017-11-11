@@ -1,0 +1,38 @@
+@import '~variables.scss';
+
+.info-bar-style{
+    background-color: #1c2931;
+    min-height: 55px;
+    padding: 15px
+}
+
+.info{
+    display: inline-block;
+
+    a{
+        color: #ffffff;
+
+        &:hover{
+            text-decoration: none;
+            font-weight: bold;
+        }
+    }
+}
+
+.fa {
+    padding-right: 10px
+}
+
+.divider::after{
+    content: "|";
+    padding: 15px
+}
+
+.social-media-icon{
+    color: #ffffff;
+
+    &:hover{
+        color: #ffffff;
+        text-decoration: none;
+      }
+}
